@@ -2,11 +2,11 @@
 
 ​	简介：该爬虫主要针对腾讯动漫官网首页的热门排行的第一个漫画进行爬取
 
-​	![](\image\img1.png)
+​	![](image\img1.png)
 
 ## 	文件说明
 
-​	![](..\pythonProject\image\img2.png)
+​	![](image\img2.png)
 
 ​	image —— Readme文档里的图片
 
@@ -24,12 +24,12 @@
 
 ​	然后在代码中修改本地路径（如图所示）
 
-![](..\pythonProject\image\img3.png)
+![](image\img3.png)
 
 ​	每次运行都会自动创建一个本地文件夹comic用来存放爬取下来的漫画资源，重新运行前一定要删掉该文	件夹
 
-![](..\pythonProject\image\img4.png)
+![](image\img4.png)
 
 ​	修改数据库配置
 
-![](..\pythonProject\image\img5.png)
+![](image\img5.png)
