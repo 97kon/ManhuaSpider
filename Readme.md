@@ -2,7 +2,7 @@
 
 ​	简介：该爬虫主要针对腾讯动漫官网首页的热门排行的第一个漫画进行爬取
 
-​	![](..\pythonProject\image\img1.png)
+​	![](\image\img1.png)
 
 ## 	文件说明
 
