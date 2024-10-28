@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comics Gallery</title>
+</head>
+<body>
+    <h2>Comics Gallery</h2>
+    <p>Welcome, {{ session.username }}</p>
+    <ul>
+        {% for comic in comics %}
+        <li>{{ comic[0] }} - {{ comic[1] }} - <img src="/static/images/{{ comic[2] }}" alt="{{ comic[2] }}" width="100"></li>
+        {% endfor %}
+    </ul>
+    <a href="/logout">Logout</a>
+</body>
+</html>
